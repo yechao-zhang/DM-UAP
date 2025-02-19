@@ -29,3 +29,6 @@ python imagenet_eval.py --data_dir path/to/your/imagenet_val_set/ILSVRC2012_img_
   --model_name vgg19 2>&1|tee -a "path/to/your/save_dir/result.log"
 ```
 This will start testing your uap on model VGG19, and record the results in result.log. More details can be found in [imagenet_eval.py](imagenet_eval.py).
+
+## Acknowledgements
+This repo is built on [SGA](https://github.com/liuxuannan/Stochastic-Gradient-Aggregation). We sincerely thank them for their outstanding work.
