@@ -5,3 +5,5 @@ The repo is recommended to be used with python=3.9, torch=2.0.1. All dependencie
 ```
 pip install -r requirements.txt
 ```
+## Data preparation
+To start with the repo, ImageNet validation set and a subset of ImageNet training set is need. Update the number of images for training, and the root directory of the training set and validation set in [run.sh](run.sh).
