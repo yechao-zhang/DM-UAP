@@ -30,5 +30,20 @@ python imagenet_eval.py --data_dir path/to/your/imagenet_val_set/ILSVRC2012_img_
 ```
 This will start testing your uap on model VGG19, and record the results in result.log. More details can be found in [imagenet_eval.py](imagenet_eval.py).
 
+## Citation
+If you find this repository useful, please cite our paper:
+```bibtex
+@article{zhang2025improving,
+  title={Improving Generalization of Universal Adversarial Perturbation via Dynamic Maximin Optimization},
+  author={Zhang, Yechao and Xu, Yingzhe and Shi, Junyu and Zhang, Leo Yu and Hu, Shengshan and Li, Minghui and Zhang, Yanjun},
+  journal={Proceedings of the AAAI Conference on Artificial Intelligence},
+  volume={39},
+  number={10},
+  pages={10293--10301},
+  year={2025},
+  doi={10.1609/aaai.v39i10.33117}
+}
+```
+
 ## Acknowledgements
 This project is built on [SGA](https://github.com/liuxuannan/Stochastic-Gradient-Aggregation). We sincerely thank them for their outstanding work.
